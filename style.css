@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.pexels.com/photos/159519/back-to-school-paper-colored-paper-stationery-159519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+:root {
+  --main-color: #e6b30e;
+}
+.act,
+.navbar ul li a:hover {
+  color: var(--main-color) !important;
+}
+.theme-text {
+  color: var(--main-color) !important;
+}
+.section-title h2 {
+  color: var(--main-color) !important;
+}
+svg.wave {
+  position: absolute;
+  bottom: -70px;
+}
+.middle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80vh;
+  width: 70%;
+}
+.middle h1 {
+  font-size: 70px;
+}
+.section-title {
+  color: #e6b30e;
+  font-weight: bold;
+}
+.bi {
+  color: #e6b30e;
+}
+.btn-primary {
+  background: #e6b30e;
+}
